@@ -21,13 +21,13 @@ selected subsequently.
 
 - Checkout the Claws mail source.
 
-    http://git.claws-mail.org/readonly/claws.git
+  `http://git.claws-mail.org/readonly/claws.git`
 
 - Go to the Claws mail plugin source folder and checkout
   the archive button source
 
-    cd claws/src/plugins
-    git clone https://github.com/meyerd/claws-archive_button.git archive_button
+  `cd claws/src/plugins`
+  `git clone https://github.com/meyerd/claws-archive_button.git archive_button`
 
 - Add `archive_button` to the end of the `SUBDIRS` definition
   in `Makefile.am` in `claws/src/plugins`
