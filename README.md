@@ -27,6 +27,7 @@ selected subsequently.
   the archive button source
 
   `cd claws/src/plugins`
+
   `git clone https://github.com/meyerd/claws-archive_button.git archive_button`
 
 - Add `archive_button` to the end of the `SUBDIRS` definition
