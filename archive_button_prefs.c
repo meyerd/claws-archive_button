@@ -88,7 +88,8 @@ static void archive_button_prefs_select_folder_cb(GtkWidget *widget, gpointer da
 	FolderItem *item;
 	gchar *id;
 
-	item = foldersel_folder_sel(NULL, FOLDER_SEL_COPY, NULL, FALSE);
+	item = foldersel_folder_sel(NULL, FOLDER_SEL_COPY, NULL, FALSE,
+					_("Select archive folder"));
 	if (item && item->path) {
 		id = folder_item_get_identifier(item);
 		if (id) {
